@@ -1,0 +1,40 @@
+ 
+
+.container {
+	width: 980px;
+	display: block;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 980px) {
+
+	.container {
+		width: 90%; 
+	}	
+}
+
+.full {
+	width:100%;
+}
+
+.half {
+	width:50%;
+	float: left;
+}
+
+.third {
+	width: 33.3333%;
+	float: left;
+}
+ 
+.fourth {
+	width: 25%;
+	float: left;
+}
+
+@media screen and (max-width: 600px) {
+
+	.fourth, .third, .half  {
+		width: 100%; 
+	}	
+}

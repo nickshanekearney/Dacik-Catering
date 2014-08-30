@@ -1,0 +1,47 @@
+/* line 3, ../sass/grid.scss */
+.container {
+  width: 980px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 980px) {
+  /* line 11, ../sass/grid.scss */
+  .container {
+    width: 90%;
+  }
+}
+/* line 16, ../sass/grid.scss */
+.full {
+  width: 100%;
+}
+
+/* line 20, ../sass/grid.scss */
+.half {
+  width: 50%;
+  float: left;
+  
+}
+
+/* line 25, ../sass/grid.scss */
+.third {
+  width: 33.3333%;
+  float: left;
+}
+
+/* line 30, ../sass/grid.scss */
+.fourth {
+  width: 25%;
+  float: left;
+  	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */ 
+	padding: 10px;
+}
+ 
+@media screen and (max-width: 600px) {
+  /* line 37, ../sass/grid.scss */
+  .fourth, .third, .half {
+    width: 100%;
+  }
+}

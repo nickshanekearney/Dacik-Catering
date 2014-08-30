@@ -1,0 +1,749 @@
+/* line 1, ../sass/default.scss */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+}
+
+/* line 12, ../sass/default.scss */
+body {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  color: #37302a;
+  background: white;
+  font: normal 100%/1.4 sans-serif;
+  font-family: 'Raleway', sans-serif;
+  height: auto !important;
+}
+
+/* line 23, ../sass/default.scss */
+.container {
+  width: 980px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 980px) {
+  /* line 31, ../sass/default.scss */
+  .container {
+    width: 90%;
+    overflow: hidden !important;
+  }
+}
+@media screen and (max-width: 980px) {
+  /* line 39, ../sass/default.scss */
+  section {
+    text-align: center;
+    width: 100%;
+    padding: 0px 0 !important;
+    margin-bottom: 50px !important;
+  }
+}
+/* line 49, ../sass/default.scss */
+.right {
+  float: right;
+}
+
+/* line 50, ../sass/default.scss */
+.left {
+  float: left;
+}
+
+/* line 52, ../sass/default.scss */
+section {
+  text-align: center;
+  width: 100%;
+  width: 100%;
+  padding: 100px 0px 100px !important;
+}
+
+/* line 58, ../sass/default.scss */
+main {
+  padding-top: 50px;
+}
+
+/* line 61, ../sass/default.scss */
+section, main {
+  overflow-y: hidden !important;
+}
+
+/* line 76, ../sass/default.scss */
+.sectionTitle h1 {
+  color: #F7885D;
+  font-family: raleway,sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  margin: 10px 0px;
+}
+/* line 84, ../sass/default.scss */
+.sectionTitle p:last-child {
+  color: #888;
+  font-family: raleway,sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+/* line 92, ../sass/default.scss */
+.sectionTitle .fancy {
+  line-height: 0.5;
+  text-align: center;
+}
+/* line 96, ../sass/default.scss */
+.sectionTitle .fancy span {
+  display: inline-block;
+  position: relative;
+}
+/* line 101, ../sass/default.scss */
+.sectionTitle .fancy span:before,
+.sectionTitle .fancy span:after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  border-bottom: 1px solid #474747;
+  bottom: 7px;
+  width: 200px;
+}
+/* line 109, ../sass/default.scss */
+.sectionTitle .fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+/* line 113, ../sass/default.scss */
+.sectionTitle .fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+/* line 117, ../sass/default.scss */
+.sectionTitle i:hover {
+  color: black;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+/* line 124, ../sass/default.scss */
+.sectionTitle i {
+  color: #F7885D;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 601px) {
+  /* line 135, ../sass/default.scss */
+  .sectionTitle h1 {
+    font-size: 40px !important;
+  }
+  /* line 138, ../sass/default.scss */
+  .sectionTitle p:last-child {
+    font-size: 14px !important;
+  }
+}
+@media screen and (max-width: 601px) {
+  /* line 154, ../sass/default.scss */
+  .introText img {
+    width: 70%;
+  }
+
+  /* line 158, ../sass/default.scss */
+  .introText h1 {
+    font-size: 49px !important;
+    line-height: 57px !important;
+    text-decoration: none !important;
+  }
+  /* line 163, ../sass/default.scss */
+  .introText h3, .introText p {
+    display: none;
+  }
+
+  /* line 167, ../sass/default.scss */
+  #top {
+    top: 20% !important;
+    height: 340px !important;
+  }
+  /* line 170, ../sass/default.scss */
+  #top .topSlide {
+    height: 340px !important;
+  }
+}
+/* line 177, ../sass/default.scss */
+#top {
+  padding: 0;
+  height: 640px;
+  padding: 0 0px 20px !important;
+}
+
+/* line 185, ../sass/default.scss */
+.topSlide {
+  height: 640px;
+  width: 100%;
+  background-image: url("../img/2bb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* line 193, ../sass/default.scss */
+.introText {
+  color: white;
+  position: relative;
+  top: 28%;
+}
+/* line 198, ../sass/default.scss */
+.introText h1 {
+  color: #FFF;
+  font-size: 67px;
+  text-align: center;
+  font-family: raleway,sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+  line-height: 29px;
+}
+/* line 208, ../sass/default.scss */
+.introText p, .introText h3 {
+  line-height: 19px;
+  text-align: center;
+  font-family: raleway,sans-serif;
+  font-weight: 400;
+}
+/* line 214, ../sass/default.scss */
+.introText p {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+/* line 218, ../sass/default.scss */
+.introText h3 {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 601px) {
+  /* line 227, ../sass/default.scss */
+  .introText {
+    color: #FFF;
+    position: relative;
+    top: 37%;
+  }
+}
+/* line 242, ../sass/default.scss */
+#about {
+  padding-bottom: 51px !important;
+}
+/* line 244, ../sass/default.scss */
+#about main {
+  width: 100%;
+  margin-bottom: -60px;
+}
+/* line 247, ../sass/default.scss */
+#about main .left {
+  padding-top: 100px;
+}
+/* line 250, ../sass/default.scss */
+#about main p, #about main h3 {
+  text-align: left;
+  color: #333;
+  font-family: raleway,sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+}
+/* line 258, ../sass/default.scss */
+#about main h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #F7885D;
+  font-family: raleway,sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 950px) {
+  /* line 274, ../sass/default.scss */
+  #about {
+    padding-top: 0px !important;
+    padding-bottom: 14px !important;
+  }
+  /* line 279, ../sass/default.scss */
+  #about main .right {
+    display: none;
+  }
+  /* line 282, ../sass/default.scss */
+  #about main .left {
+    width: 100%;
+    top: 0 !important;
+    padding-top: 0;
+  }
+
+  /* line 290, ../sass/default.scss */
+  #parallaxSlider .flex-control-nav {
+    display: none !important;
+  }
+}
+/* line 316, ../sass/default.scss */
+section#menu {
+  padding-bottom: 0px !important;
+  position: relative;
+}
+/* line 320, ../sass/default.scss */
+section#menu main {
+  width: 100%;
+  position: relative;
+}
+
+/* line 325, ../sass/default.scss */
+#menuSlider {
+  position: relative;
+}
+/* line 328, ../sass/default.scss */
+#menuSlider ol {
+  position: absolute !important;
+}
+/* line 333, ../sass/default.scss */
+#menuSlider .effects .img {
+  margin-bottom: 12px !important;
+}
+/* line 336, ../sass/default.scss */
+#menuSlider .fourth {
+  min-height: 260px;
+}
+/* line 339, ../sass/default.scss */
+#menuSlider h4, #menuSlider p {
+  color: #666;
+  text-align: center;
+  font-family: raleway,sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+/* line 347, ../sass/default.scss */
+#menuSlider p {
+  line-height: 16px;
+  color: #666;
+  font-size: 13px;
+  text-align: center;
+  font-family: raleway,sans-serif;
+  font-weight: 400;
+}
+
+/* line 357, ../sass/default.scss */
+#menu .flex-control-nav li:hover {
+  color: #F7885D;
+  border-color: #F7885D;
+}
+
+/* line 361, ../sass/default.scss */
+.flex-active {
+  color: #F7885D;
+}
+
+@media screen and (min-width: 601px) {
+  /* line 367, ../sass/default.scss */
+  #menuMobile {
+    display: none;
+  }
+
+  /* line 371, ../sass/default.scss */
+  #menuDesktop {
+    display: block;
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 950px) {
+  /* line 378, ../sass/default.scss */
+  #menu {
+    padding-top: 50px !important;
+    margin-bottom: 0 !important;
+  }
+}
+@media screen and (max-width: 780px) {
+  /* line 384, ../sass/default.scss */
+  #menuMobile {
+    display: block;
+  }
+
+  /* line 387, ../sass/default.scss */
+  #menuDesktop {
+    display: none;
+  }
+
+  /* line 392, ../sass/default.scss */
+  section#menu main {
+    width: 100%;
+    padding-top: 20px;
+    position: relative;
+  }
+}
+/* line 402, ../sass/default.scss */
+#accordion {
+  text-align: left;
+}
+/* line 404, ../sass/default.scss */
+#accordion div {
+  display: table;
+}
+/* line 409, ../sass/default.scss */
+#accordion h4 {
+  color: #F7885D;
+  padding-bottom: 3px;
+}
+/* line 413, ../sass/default.scss */
+#accordion p {
+  color: #333;
+  font-family: raleway,sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+/* line 423, ../sass/default.scss */
+#accordion .ui-accordion-header {
+  margin: 13px 0px;
+  text-align: center;
+  color: #333;
+  font-family: raleway,sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  cursor: pointer;
+  padding: 20px 0px;
+}
+
+/* line 436, ../sass/default.scss */
+#accordion .ui-accordion-content {
+  width: 100%;
+  color: #777;
+  font-size: 10pt;
+  line-height: 16pt;
+}
+
+/* line 445, ../sass/default.scss */
+#accordion .ui-accordion-content a {
+  color: #777;
+}
+
+/* line 448, ../sass/default.scss */
+#accordion .ui-accordion-header {
+  background-color: #f3f3f3 !important;
+}
+
+/* line 452, ../sass/default.scss */
+#accordion .ui-accordion-header:first-of-type a {
+  box-shadow: 0px -1px 0px 0px #b85c0f;
+}
+
+/* line 455, ../sass/default.scss */
+#accordion .ui-accordion-content:last-of-type {
+  box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 0 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* line 465, ../sass/default.scss */
+.flex-direction-nav li {
+  display: none !important;
+}
+
+/* line 489, ../sass/default.scss */
+#reservation {
+  padding-top: 0;
+  overflow: hidden;
+}
+/* line 493, ../sass/default.scss */
+#reservation input[type="submit"], #reservation input[type="text"] {
+  line-height: normal !important;
+  padding-top: 100px;
+}
+/* line 497, ../sass/default.scss */
+#reservation main {
+  text-align: left;
+}
+/* line 500, ../sass/default.scss */
+#reservation .third, #reservation .full {
+  padding: 10px;
+}
+/* line 503, ../sass/default.scss */
+#reservation label {
+  color: #6B6B6B;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: left;
+  font-family: raleway,sans-serif;
+  font-weight: 700;
+}
+/* line 511, ../sass/default.scss */
+#reservation input[type="text"] {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #C4C4C4;
+  height: 40px;
+}
+/* line 517, ../sass/default.scss */
+#reservation input[type="text"]:hover {
+  border-color: grey;
+}
+/* line 521, ../sass/default.scss */
+#reservation input[type="submit"] {
+  z-index: 164;
+  min-height: 50px;
+  width: 226px;
+  position: relative;
+  background: url("../img/button.png") no-repeat scroll 0px 0px transparent;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: none;
+  text-indent: -999999px;
+  display: block;
+  margin: 0 auto;
+  top: 30px;
+  margin-bottom: 30px;
+}
+/* line 537, ../sass/default.scss */
+#reservation #message {
+  height: 200px;
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #c4c4c4;
+}
+
+@media screen and (max-width: 401px) {
+  /* line 548, ../sass/default.scss */
+  #reservation h1 {
+    font-size: 35px !important;
+  }
+
+  /* line 550, ../sass/default.scss */
+  #reservation main {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 950px) {
+  /* line 556, ../sass/default.scss */
+  #reservation {
+    padding: 20px 0px !important;
+    margin-bottom: 0 !important;
+    margin-bottom: -30px !important;
+  }
+  /* line 560, ../sass/default.scss */
+  #reservation main {
+    padding-top: 4px !important;
+  }
+
+  /* line 564, ../sass/default.scss */
+  section#menu main {
+    width: 100%;
+    padding-top: 2px;
+    position: relative;
+  }
+}
+/* line 595, ../sass/default.scss */
+#gallery a img {
+  width: 25%;
+  border: 7px solid #FFF;
+}
+
+@media screen and (max-width: 950px) {
+  /* line 603, ../sass/default.scss */
+  #gallery {
+    padding: 50px 0px !important;
+    margin-bottom: 0 !important;
+  }
+}
+/* line 622, ../sass/default.scss */
+#contact main {
+  width: 100%;
+}
+/* line 624, ../sass/default.scss */
+#contact main .left {
+  padding-top: 20px;
+  padding-right: 20px;
+}
+/* line 629, ../sass/default.scss */
+#contact .half {
+  text-align: left;
+}
+/* line 632, ../sass/default.scss */
+#contact .half p, #contact .half address, #contact .half a {
+  color: #333;
+  font-family: raleway,sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+}
+/* line 639, ../sass/default.scss */
+#contact .half h4 {
+  color: #F7885D;
+  font-family: raleway,sans-serif;
+  font-weight: 700;
+}
+/* line 644, ../sass/default.scss */
+#contact .half .full {
+  position: relative;
+  top: 20px;
+}
+/* line 650, ../sass/default.scss */
+#contact label {
+  color: #6B6B6B;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: left;
+  font-family: raleway,sans-serif;
+  font-weight: 700;
+}
+/* line 658, ../sass/default.scss */
+#contact input[type="text"] {
+  width: 95%;
+  padding: 7px;
+  border: 1px solid #C4C4C4;
+  height: 40px;
+}
+/* line 665, ../sass/default.scss */
+#contact input[type="text"]:hover {
+  border-color: grey;
+}
+/* line 669, ../sass/default.scss */
+#contact input[type="submit"] {
+  z-index: 164;
+  min-height: 50px;
+  width: 226px;
+  position: relative;
+  background: url("../img/send.png") no-repeat scroll 0px 0px transparent;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: none;
+  text-indent: -999999px;
+  display: block;
+  margin: 0 auto;
+  top: 30px;
+  float: left;
+  top: 40px;
+  margin-bottom: 40px;
+}
+/* line 687, ../sass/default.scss */
+#contact #message {
+  height: 200px;
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #c4c4c4;
+}
+
+@media screen and (max-width: 600px) {
+  /* line 700, ../sass/default.scss */
+  #contact main {
+    padding-top: 20px;
+  }
+  /* line 703, ../sass/default.scss */
+  #contact .half {
+    margin-bottom: 30px;
+  }
+
+  /* line 707, ../sass/default.scss */
+  #contact input[type="text"] {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #C4C4C4;
+    height: 40px;
+  }
+
+  /* line 713, ../sass/default.scss */
+  p.parallaxP {
+    position: absolute;
+    color: #FFF;
+    font-size: 30px;
+    z-index: 9;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+    top: 85px;
+    line-height: 35px;
+  }
+
+  /* line 725, ../sass/default.scss */
+  .parallaxContent {
+    position: absolute;
+    color: #FFF;
+    z-index: 9;
+    width: 80%;
+    text-align: center;
+    left: 10%;
+    padding-top: 30px;
+    margin-bottom: -100px;
+  }
+}
+@media screen and (max-width: 950px) {
+  /* line 738, ../sass/default.scss */
+  #contact {
+    padding: 50px 0px 40px !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* line 742, ../sass/default.scss */
+  footer {
+    height: 125px !important;
+  }
+}
+/* line 762, ../sass/default.scss */
+footer {
+  width: 100%;
+  height: 120px;
+  background: #2B2B2B;
+  text-align: center;
+  padding-top: 35px;
+}
+/* line 768, ../sass/default.scss */
+footer ul {
+  width: 150px !important;
+  display: block;
+  margin: 0 auto;
+  width: 146px;
+}
+/* line 773, ../sass/default.scss */
+footer ul li {
+  float: left;
+  padding: 10px;
+}
+/* line 776, ../sass/default.scss */
+footer ul li i {
+  font-size: 20px;
+  color: white;
+}
+/* line 780, ../sass/default.scss */
+footer ul li i:hover {
+  color: #F7885D;
+}
+/* line 785, ../sass/default.scss */
+footer p {
+  color: white;
+}
+
+/* PLACEHOLDER TEXT */
+/* line 794, ../sass/default.scss */
+::-webkit-input-placeholder {
+  color: #c3c3c3;
+}
+
+/* line 797, ../sass/default.scss */
+:-moz-placeholder {
+  /* older Firefox*/
+  color: #c3c3c3;
+}
+
+/* line 800, ../sass/default.scss */
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #c3c3c3;
+}
+
+/* line 803, ../sass/default.scss */
+:-ms-input-placeholder {
+  color: #c3c3c3;
+}
